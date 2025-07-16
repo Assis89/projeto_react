@@ -1,12 +1,39 @@
-# React + Vite
+# Projeto React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto utiliza **React** com o empacotador **Vite** para desenvolvimento de aplicações web modernas.
 
-Currently, two official plugins are available:
+## Tecnologias
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [ESLint](https://eslint.org/) para padronização de código
 
-## Expanding the ESLint configuration
+## Instalação
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/Assis89/projeto_react.git
+   ```
+2. Instale as dependências:
+   ```bash
+   npm install
+   ```
+3. Rode o projeto em modo desenvolvimento:
+   ```bash
+   npm run dev
+   ```
+
+## Scripts
+
+- `npm run dev`: Inicia o servidor de desenvolvimento
+- `npm run build`: Gera a build de produção
+- `npm run lint`: Roda o eslint para checagem de estilo de código
+
+## Estrutura
+
+- `src/`: Código-fonte do React
+- `public/` ou arquivos HTML raiz
+
+## Licença
+
+Este projeto é apenas para fins de estudos.
